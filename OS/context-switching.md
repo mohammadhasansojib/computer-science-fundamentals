@@ -1,0 +1,3 @@
+## Context Switching
+
+When CPU executing a process then if any interrupt comes or higher priority process to execute CPU save the the state the currently executing process in PCB(Process Control Block) and reload the higher priority process into memory. When it is finished then it again reload the previous process which was saved in the PCB from the state where it was saved. This is called Context Switching.
